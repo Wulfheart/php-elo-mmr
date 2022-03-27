@@ -2,6 +2,7 @@
 
 namespace Wulfheart\EloMMR;
 
-class EloMMRClass
+class TanhTerm
 {
+
 }

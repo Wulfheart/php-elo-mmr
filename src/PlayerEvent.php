@@ -4,5 +4,4 @@ namespace Wulfheart\EloMMR;
 
 class PlayerEvent
 {
-
 }

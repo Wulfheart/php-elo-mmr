@@ -8,7 +8,6 @@ class Standing
         public Player $player,
         public int $lowRank,
         public int $highRank
-    )
-    {
+    ) {
     }
 }

@@ -36,5 +36,4 @@ class EloMMRRating
             $sigDrift = sqrt($discreteDrift + $continuousDrift);
         });
     }
-
 }

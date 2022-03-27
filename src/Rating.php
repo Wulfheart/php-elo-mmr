@@ -10,7 +10,6 @@ class Rating
     ) {
     }
 
-
     public function withNoise(float $sigNoise): Rating
     {
         return new Rating(

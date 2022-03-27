@@ -14,7 +14,8 @@ class Player
     /** @var array<\Wulfheart\EloMMR\TanhTerm> */
     protected array $logisticFactors;
 
-    public function addNoiseBest(float $sigNoise, float $transferSpeed): void {
+    public function addNoiseBest(float $sigNoise, float $transferSpeed): void
+    {
         $newPosterior = $this->approxPosterior->withNoise($sigNoise);
     }
 }
